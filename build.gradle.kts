@@ -10,10 +10,12 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("com.andreapivetta.kolor:kolor:1.0.0")
 }
 
 tasks.test {
